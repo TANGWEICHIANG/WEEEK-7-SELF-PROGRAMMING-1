@@ -1,0 +1,18 @@
+package selfProgramming;
+
+public class doubleArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double[] num = new double[]{
+				3.0, 
+				3.3, 
+				3.4, 
+				3.7, 
+				4.0
+		};
+		double z = num[4];
+		System.out.println(z);
+	}
+
+}
