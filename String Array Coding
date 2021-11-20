@@ -1,0 +1,18 @@
+package selfProgramming;
+
+public class stringArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] newArr = new String[5];
+		newArr[0] = "Ali";
+		newArr[1] = "Abu";
+		newArr[2] = "Akau";
+		newArr[3] = "Apergh";
+		newArr[4] = "Aceh";
+		
+		String x = newArr[3];
+		System.out.println(x);
+	}
+
+}
