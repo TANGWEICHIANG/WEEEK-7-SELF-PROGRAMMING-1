@@ -1,0 +1,25 @@
+package selfProgramming;
+import java.util.Scanner;
+public class scannerArray {
+
+	private static Scanner sc;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		sc = new Scanner(System.in);
+		int b;
+		System.out.println("Enter the number of elements you want to store: ");
+		b = sc.nextInt(); //reading the number of elements from the that we want to enter  
+		
+		int[] array = new int[8]; //creates an array in the memory of length 8  
+		System.out.println("\nEnter the elements of the array ");
+		for (int i=0; i<b; i++) {
+			array[i] = sc.nextInt(); //reading array elements from the user
+		}
+		System.out.println("\nArray elements are: ");
+		
+		for (int i=0; i<b; i++) {
+			System.out.println(array[i]);
+		}
+	}
+
+}
