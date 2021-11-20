@@ -1,0 +1,34 @@
+Enter the number of rows: 5
+Enter the number of columns: 5
+Enter the elements of the array: 
+1
+1
+1
+1
+0
+1
+1
+1
+0
+1
+1
+1
+0
+1
+1
+1
+0
+1
+1
+1
+0
+1
+1
+1
+1
+Elements of the array are: 
+1 1 1 1 0 
+1 1 1 0 1 
+1 1 0 1 1 
+1 0 1 1 1 
+0 1 1 1 1 
