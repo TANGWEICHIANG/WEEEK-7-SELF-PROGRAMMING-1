@@ -1,0 +1,16 @@
+package selfProgramming;
+
+public class doWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int sum=0, number =2;
+		do{
+			sum+=number;
+			number += 2;
+	    System.out.println("SUM: "+ sum);
+			} while ((number < 10)&&(sum <= 30));
+
+	}
+
+}
